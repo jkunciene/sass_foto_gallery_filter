@@ -1,0 +1,13 @@
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+@mixin  flex() {
+    display: flex;
+    width: 30vw;
+    
+}
+@mixin filter($pr) {
+    filter: brightness($pr);
+}

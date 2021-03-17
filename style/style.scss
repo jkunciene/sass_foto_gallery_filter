@@ -1,0 +1,16 @@
+@import 'minxin', 'var';
+
+.container{
+    @include flexCenter();
+    flex-wrap: wrap;
+    img{
+        @include flex();
+        border-radius: $borderForIMG;
+        padding: $padding;
+        @include filter(50%);
+          &:hover {
+              @include filter(110%);
+          }
+    }
+  
+}
